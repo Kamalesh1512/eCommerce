@@ -37,7 +37,6 @@ export const Footer = () => {
     company: [
       { label: "About", href: "/about" },
       { label: "Blog", href: "/blog" },
-      // { label: "Careers", href: "/careers" },
     ],
     legal: [
       { label: "Privacy", href: "/privacy" },
