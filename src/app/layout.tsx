@@ -19,8 +19,6 @@ export const metadata: Metadata = {
 
 const outfit = Outfit({ subsets: ["latin"] });
 
-export const runtime = "nodejs";
-
 export default async function RootLayout({
   children,
 }: {
