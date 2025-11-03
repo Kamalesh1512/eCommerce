@@ -6,7 +6,6 @@ import { cn } from "@/lib/utils";
 import { Outfit } from "next/font/google";
 import { ThemeProvider } from "@/provider/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
-import { Providers } from "@/provider/session-provider";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 
@@ -37,7 +36,7 @@ export default async function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Header user={null} />
+            <Header/>
             <main className="min-h-screen pt-16">
               {children}
             </main>

@@ -80,7 +80,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mx-auto max-w-3xl text-lg text-muted-foreground md:text-2xl leading-relaxed"
         >
-          AI-powered copywriting tools that turn browsers into buyers. Create
+          AI copywriting platform that turn browsers into buyers. Create
           headlines, descriptions, and ads that actually convert — in seconds,
           not hours.
         </motion.p>

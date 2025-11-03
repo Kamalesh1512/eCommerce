@@ -4,7 +4,6 @@
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Session } from "next-auth";
 import {
   LayoutDashboard,
   Settings,
@@ -36,11 +35,8 @@ import {
 } from "@/components/ui/collapsible";
 import { mainNavigation, toolsNavigation } from "@/lib/constants/sidebar";
 
-interface SidebarProps {
-  user: Session["user"];
-}
 
-export function Sidebar({ user }: SidebarProps) {
+export function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);
   const [toolsOpen, setToolsOpen] = useState(true);
   const pathname = usePathname();

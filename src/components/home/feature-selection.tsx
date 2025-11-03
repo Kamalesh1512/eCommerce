@@ -57,8 +57,8 @@ export const FeaturesSection = () => {
       improvement: "-50% Bounce Rate",
       gradient: {
         from: "blue-500",
-        via: "cyan-500",
-        to: "teal-500",
+        via: "blue-300",
+        to: "blue-600",
       },
     },
     {
@@ -78,7 +78,7 @@ export const FeaturesSection = () => {
       },
       improvement: "5.2x ROAS",
       gradient: {
-        from: "pink-500",
+        from: "purple-500",
         via: "purple-500",
         to: "indigo-500",
       },
@@ -122,7 +122,7 @@ export const FeaturesSection = () => {
       },
       improvement: "+237% Conversions",
       gradient: {
-        from: "yellow-500",
+        from: "orange-500",
         via: "orange-500",
         to: "red-500",
       },
@@ -171,10 +171,10 @@ export const FeaturesSection = () => {
               >
                 {/* Header */}
                 <div
-                  className={`bg-gradient-to-r from-${tool.gradient.from} via-${tool.gradient.via} to-${tool.gradient.to} px-4 py-1 text-primary border-b border-border`}
+                  className={`bg-gradient-to-r from-${tool.gradient.to} via-${tool.gradient.via} to-${tool.gradient.from} px-4 py-1 text-primary border-b border-border`}
                 >
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="rounded-full bg-transparent text-secondary flex items-center justify-center">
+                    <div className={`rounded-full bg-transparent text-${tool.gradient.from} flex items-center justify-center`}>
                       {tool.icon}
                     </div>
                     <div>
