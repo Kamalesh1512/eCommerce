@@ -1,3 +1,4 @@
+//src/app/page.tsx
 import { CTASection } from "@/components/home/cta";
 import { FeaturesSection } from "@/components/home/feature-selection";
 import { Header } from "@/components/layout/header";

@@ -61,7 +61,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-5xl font-bold leading-tight tracking-tight md:text-7xl"
         >
-          The Copywriter Built to Boost,
+          The Copywriter Built to Boost
           <br />
           <motion.span
             initial={{ backgroundPosition: "0% 50%" }}
@@ -98,21 +98,6 @@ export const HeroSection = () => {
             signups
           </p>
         </motion.div>
-
-        {/* Taglines */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 1 }}
-          className="mx-auto mt-10 space-y-3 text-center text-lg italic text-muted-foreground"
-        >
-          <p>
-            “We guarantee our copy will outperform your old copy—or you get your
-            money back.”
-          </p>
-          <p>“Write all your store’s copy in 10 minutes, not 10 hours.”</p>
-          <p>“Stop burning ad spend. Start converting clicks.”</p>
-        </motion.div> */}
       </motion.div>
 
     </motion.section>

@@ -82,7 +82,7 @@ export const CTASection: React.FC = () => {
   const [refreshKey, setRefreshKey] = useState(0);
 
   return (
-    <section className="py-24 px-4">
+    <section className="py-4 px-4">
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -93,7 +93,7 @@ export const CTASection: React.FC = () => {
         <Card className="relative overflow-hidden border-2 border-primary/20 shadow-2xl">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-purple-500/10 to-transparent" />
 
-          <CardContent className="relative p-12 text-center space-y-8">
+          <CardContent className="relative p-4 text-center space-y-8">
             <Rocket className="w-16 h-16 text-primary mx-auto drop-shadow-md" />
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
               Stop Losing Sales to Bad Copy

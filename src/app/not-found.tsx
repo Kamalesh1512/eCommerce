@@ -1,3 +1,4 @@
+//src/app/not-found.tsx
 "use client";
 
 import { motion } from "framer-motion";
@@ -5,6 +6,7 @@ import { Construction, ArrowLeft, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { WaitlistForm } from "@/components/home/waitlist-form";
+
 
 export default function NotFound() {
   return (

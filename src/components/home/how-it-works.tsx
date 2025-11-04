@@ -590,7 +590,7 @@ export default function HowItWorksSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
-          className="mt-16 text-center p-8 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-2xl border-2 border-primary/20"
+          className="mt-8 text-center p-8 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-2xl border-2 border-primary/20"
         >
           <h3 className="text-2xl font-bold mb-3">Ready to Transform Your Copy?</h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">

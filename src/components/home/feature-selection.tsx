@@ -34,9 +34,9 @@ export const FeaturesSection = () => {
       },
       improvement: "+425% CTR",
       gradient: {
-        from: "primary",
-        via: "purple-600",
-        to: "pink-600",
+        from: "purple-500",
+        via: "purple-500",
+        to: "indigo-500",
       },
     },
     {
@@ -56,9 +56,9 @@ export const FeaturesSection = () => {
       },
       improvement: "-50% Bounce Rate",
       gradient: {
-        from: "blue-500",
-        via: "blue-300",
-        to: "blue-600",
+        from: "purple-500",
+        via: "purple-500",
+        to: "indigo-500",
       },
     },
     {
@@ -100,9 +100,9 @@ export const FeaturesSection = () => {
       },
       improvement: "+378% Opens",
       gradient: {
-        from: "green-500",
-        via: "emerald-500",
-        to: "teal-500",
+        from: "purple-500",
+        via: "purple-500",
+        to: "indigo-500",
       },
     },
     {
@@ -122,9 +122,9 @@ export const FeaturesSection = () => {
       },
       improvement: "+237% Conversions",
       gradient: {
-        from: "orange-500",
-        via: "orange-500",
-        to: "red-500",
+        from: "purple-500",
+        via: "purple-500",
+        to: "indigo-500",
       },
     },
   ];
@@ -171,7 +171,7 @@ export const FeaturesSection = () => {
               >
                 {/* Header */}
                 <div
-                  className={`bg-gradient-to-r from-${tool.gradient.to} via-${tool.gradient.via} to-${tool.gradient.from} px-4 py-1 text-primary border-b border-border`}
+                  className={` px-4 py-1 text-primary border-b border-border`}
                 >
                   <div className="flex items-center gap-3 mb-2">
                     <div className={`rounded-full bg-transparent text-${tool.gradient.from} flex items-center justify-center`}>
@@ -183,10 +183,6 @@ export const FeaturesSection = () => {
                         {tool.description}
                       </p>
                     </div>
-                  </div>
-                  <div className="inline-flex items-center gap-2 px-2 py-0.5 rounded-full bg-primary/10 text-sm font-medium text-primary">
-                    <TrendingUp className="w-4 h-4" />
-                    {tool.improvement}
                   </div>
                 </div>
 
