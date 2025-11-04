@@ -205,7 +205,7 @@ export const FeaturesSection = () => {
                       <p className="text-sm text-muted-foreground italic mb-2">
                         "{tool.before.text}"
                       </p>
-                      <div className="flex gap-3 text-xs">
+                      {/* <div className="flex gap-3 text-xs">
                         {Object.entries(tool.before.metrics).map(
                           ([key, value]) => (
                             <div key={key} className="flex items-center gap-1">
@@ -218,7 +218,7 @@ export const FeaturesSection = () => {
                             </div>
                           )
                         )}
-                      </div>
+                      </div> */}
                     </div>
                   </div>
 
@@ -240,7 +240,7 @@ export const FeaturesSection = () => {
                       <p className="text-sm text-foreground font-medium mb-2 relative z-10">
                         "{tool.after.text}"
                       </p>
-                      <div className="flex gap-3 text-xs relative z-10">
+                      {/* <div className="flex gap-3 text-xs relative z-10">
                         {Object.entries(tool.after.metrics).map(
                           ([key, value]) => (
                             <div key={key} className="flex items-center gap-1">
@@ -253,7 +253,7 @@ export const FeaturesSection = () => {
                             </div>
                           )
                         )}
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
